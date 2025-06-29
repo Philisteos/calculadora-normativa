@@ -1,0 +1,44 @@
+.result-card {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border-left-width: 4px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 0.5rem;
+}
+
+.value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.value.blue {
+  color: #3182ce;
+}
+
+.value.green {
+  color: #38a169;
+}
+
+.value.yellow {
+  color: #d69e2e;
+}
+
+.value.purple {
+  color: #6b46c1;
+}
+
+.value.red {
+  color: #e53e3e;
+}

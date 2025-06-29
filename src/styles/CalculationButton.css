@@ -1,0 +1,41 @@
+.calculation-btn {
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: left;
+  border-left: 4px solid;
+  transition: box-shadow 0.3s ease;
+}
+
+.calculation-btn:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.calculation-btn.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.description {
+  font-size: 0.875rem;
+  color: #4a5568;
+}
